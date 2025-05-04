@@ -46,7 +46,7 @@ export const routes: Routes = [
   },
   {
     path: 'orders',
-    title: 'Orders',
+    title: 'Shopzo - Orders',
     component: OrderDetailsComponent,
   },
 ];

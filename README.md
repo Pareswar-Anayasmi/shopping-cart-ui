@@ -2,7 +2,7 @@
 
 This is a modern, minimalist but functioning responsive e-commerce template built with **Angular** and **TailwindCSS**. It's designed to be a starting point for building full-featured e-commerce applications. The template includes a clean and customizable design, ideal for minimalist online stores.
 
-Checkout and explore the Live website: [https://angular-tailwind-e-commerce-template.vercel.app](https://angular-tailwind-e-commerce-template.vercel.app)
+
 
 Home Screen:
 
@@ -43,9 +43,3 @@ Product Details Screen:
 
 Feel free to fork this repository and contribute feature-request, improvements, bug fixes.
 To contribute:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a new pull request
