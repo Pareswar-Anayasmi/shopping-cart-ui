@@ -24,7 +24,7 @@ import { Router } from '@angular/router';
               <th>Total</th>
               <th>Payment</th>
               <th>Shipping</th>
-              <th>Actions</th>
+              <!-- <th>Actions</th> -->
             </tr>
           </thead>
           <tbody>
@@ -39,11 +39,11 @@ import { Router } from '@angular/router';
               <td>\₹{{ order.orderTotal }}</td>
               <td>{{ order.paymentMethod }}</td>
               <td>{{ order.shippingMethod }}</td>
-              <td class="actions" >
+              <!-- <td class="actions" >
                 <button (click)="action(order,'Approve')" *ngIf="order.orderStatus === 'Pending'">Approve</button>
                 <button (click)="action(order,'Cancel')" *ngIf="order.orderStatus === 'Pending'">Cancel</button>
                 <button (click)="action(order,'Reject')" *ngIf="order.orderStatus === 'Pending'">Reject</button>
-              </td>
+              </td> -->
             </tr>
           </tbody>
         </table>
